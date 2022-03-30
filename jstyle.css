@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     width: 100%;
@@ -20,7 +23,7 @@ h1{
     font-size: 6rem;
     display: flex;
     margin: 0;
-    
+    text-align: center;
 }
 form{
     display: flex;
@@ -64,5 +67,12 @@ a{
 }
 a:hover{
     font-size: xx-large;
-    transition: ease-in .4s;
+    transition:
+     ease-in .4s;
+}
+#heading{
+    text-shadow: 1px 0px 4px orange;
+    background: linear-gradient(#00a9ec, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
